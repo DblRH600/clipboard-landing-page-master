@@ -29,19 +29,24 @@
     <link rel="stylesheet" href="custom.css" />
     <title>Frontend Mentor | Clipboard landing page</title>
   </head>
-  <body>
-    <main>
-      <header>
-        <img src="" alt="" />
-        <h1>A history of everything you copy</h1>
-        <p>
+  <body class="d-flex flex-column justify-content-center align-items-center">
+    <header class="d-flex flex-column justify-content-center align-items-center">
+      <img src="./images/bg-header-desktop.png" alt="Gray scale abstract mountain background."/>
+      <div class="card-img-overlay text-center p-5">
+        <img class="p-5" src="./images/logo.svg" alt="Clipboard logo."/>
+        <h1 class="fs-1 pb-1" >A history of everything you copy</h1>
+        <p class="fs-6 fw-light">
           Clipboard allows you to track and organize everything you copy.
           Instantly access your clipboard on all your devices.
         </p>
-        <button>Download for iOS</button>
-        <button>Download for Mac</button>
-      </header>
-
+      </div>
+      <div class="">
+        <button type="button" class="btn btn-success btn-lg rounded-pill shadow-lg mx-2">Download for iOS</button>
+        <button type="button" class="btn btn-primary btn-lg rounded-pill shadow-lg">Download for Mac</button>
+      </div>
+    </header>
+    
+    <main>
       <section>
         <h2>Keep track of your snippets</h2>
         <p>
