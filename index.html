@@ -29,27 +29,48 @@
     <link rel="stylesheet" href="custom.css" />
     <title>Frontend Mentor | Clipboard landing page</title>
   </head>
-  <body class="container-fluid d-flex flex-column justify-content-center align-items-center">
-    <header class="d-flex flex-column justify-content-center align-items-center">
-      <img src="./images/bg-header-desktop.png" alt="Gray scale abstract mountain background."/>
+  <body
+    class="container-fluid d-flex flex-column justify-content-center align-items-center"
+  >
+    <header
+      class="d-flex flex-column justify-content-center align-items-center"
+    >
+      <img
+        src="./images/bg-header-desktop.png"
+        alt="Gray scale abstract mountain background."
+      />
       <div class="card-img-overlay text-center">
-        <img class="p-5" src="./images/logo.svg" alt="Clipboard logo."/>
-        <h1 class="fs-1 pb-1" >A history of everything you copy</h1>
-        <p class="fs-6 fw-light text-center mb-4" style="width: 34rem;">
-          Clipboard allows you to track and organize everything you copy.
-          Instantly access your clipboard on all your devices.
-        </p>
+        <img class="p-5" src="./images/logo.svg" alt="Clipboard logo." />
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h1 class="fs-1 pb-1">A history of everything you copy</h1>
+          <p class="fs-6 fw-light text-center mb-4" style="width: 34rem">
+            Clipboard allows you to track and organize everything you copy.
+            Instantly access your clipboard on all your devices.
+          </p>
+        </div>
       </div>
       <div class="m-4 pb-4">
-        <button type="button" class="btn btn-success btn-lg rounded-pill shadow-lg mx-2">Download for iOS</button>
-        <button type="button" class="btn btn-primary btn-lg rounded-pill shadow-lg">Download for Mac</button>
+        <button
+          type="button"
+          class="btn btn-success btn-lg rounded-pill shadow-lg mx-2"
+        >
+          Download for iOS
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary btn-lg rounded-pill shadow-lg"
+        >
+          Download for Mac
+        </button>
       </div>
     </header>
-    
+
     <main class="d-flex flex-column justify-content-center align-items-center">
       <section class="text-center">
         <h2>Keep track of your snippets</h2>
-        <p class="fw-light p-1" style="width: 32rem;">
+        <p class="fw-light p-1" style="width: 32rem">
           Clipboard instantly stores any item you copy in the cloud, meaning you
           can access your snippets immediately on all your devices. Our Mac and
           iOS apps will help you organize everything.
@@ -58,79 +79,101 @@
 
       <section class="container-fluid text-center gap-4">
         <div class="col">
-          <img src="./images/image-computer.png" alt="Desktop monitor." class="rounded float-start" />
+          <img
+            src="./images/image-computer.png"
+            alt="Desktop monitor."
+            class="rounded float-start"
+          />
         </div>
         <div class="row">
           <div class="d-flex flex-column">
             <div class="d-flex flex-column">
               <h3 class="fs-5 text-start">Quick Search</h3>
-              <p class="fw-light p-1 text-start" style="width: 22rem;">
+              <p class="fw-light p-1 text-start" style="width: 22rem">
                 Easily search your snippets by content, category, web address,
                 application, and more.
               </p>
             </div>
             <div class="d-flex flex-column">
               <h3 class="fs-5 text-start">iCloud Sync</h3>
-              <p class="fw-light p-1 text-start" style="width: 22rem;">Instantly saves and syncs snippets across all your devices.</p>
+              <p class="fw-light p-1 text-start" style="width: 22rem">
+                Instantly saves and syncs snippets across all your devices.
+              </p>
             </div>
             <div class="d-flex flex-column">
               <h3 class="fs-5 text-start">Complete History</h3>
-              <p class="fw-light p-1 text-start" style="width: 22rem;">
-                Retrieve any snippets from the first moment you started using the
-                app.
+              <p class="fw-light p-1 text-start" style="width: 22rem">
+                Retrieve any snippets from the first moment you started using
+                the app.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="d-flex flex-column justify-content-center align-items-center">
-        <div>
+      <section class="container-fluid text-center my-5">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
           <h2>Access Clipboard anywhere</h2>
-          <p>
+          <p class="fw-light p-1" style="width: 38rem">
             Whether you&#39;re on the go, or at your computer, you can access
             all your Clipboard snippets in a few simple clicks.
           </p>
         </div>
-        <img src="" alt="" />
+        <img
+          class="my-4"
+          src="./images/image-devices.png"
+          alt="iPhone and iPad electronic devices."
+        />
       </section>
 
-      <section>
-        <div>
+      <section class="container-fluid text-center my-3">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
           <h2>Supercharge your workflow</h2>
-          <p>We&#39;ve got the tools to boost your productivity.</p>
+          <p class="fw-light p-1" style="width: 32rem">
+            We&#39;ve got the tools to boost your productivity.
+          </p>
         </div>
-        <div>
-          <div>
-            <img src="" alt="" />
-            <h4>Create blacklists</h4>
-            <p>
-              Ensure sensitive information never makes its way to your clipboard
-              by excluding certain sources.
-            </p>
+        <div class="container-fluid text-center">
+          <div class="row my-4 justify-content-around">
+            <div class="col">
+              <img src="./images/icon-blacklist.svg" alt="Document icon." />
+              <h4 class="fs-5">Create blacklists</h4>
+              <p class="fw-light fs-6 p-1" style="width: 22rem">
+                Ensure sensitive information never makes its way to your
+                clipboard by excluding certain sources.
+              </p>
+            </div>
+            <div class="col">
+              <img src="./images/icon-text.svg" alt="Text icon." />
+              <h4 class="fs-5">Plain text snippets</h4>
+              <p class="fw-light fs-6 p-1" style="width: 22rem">
+                Remove unwanted formatting from copied text for a consistent
+                look.
+              </p>
+            </div>
+            <div class="col">
+              <img src="./images/icon-preview.svg" alt="Eye icon." />
+              <h4 class="fs-5">Sneak preview</h4>
+              <p class="fw-light fs-6 p-1" style="width: 22rem">
+                Quick preview of all snippets on your Clipboard for easy access.
+              </p>
+            </div>
           </div>
-          <div>
-            <img src="" alt="" />
-            <h4>Plain text snippets</h4>
-            <p>
-              Remove unwanted formatting from copied text for a consistent look.
-            </p>
+          <div class="row my-5 justify-content-between">
+            <div class="col"><img src="./images/logo-google.png" alt="Google logo." /></div>
+            <div class="col"><img src="./images/logo-ibm.png" alt="IBM logo." /></div>
+            <div class="col"><img src="./images/logo-microsoft.png" alt="Micorsoft logo." /></div>
+            <div class="col"><img src="./images/logo-hp.png" alt="Hewlet Packard logo." /></div>
+            <div class="col"><img src="./images/logo-vector-graphics.png" alt="Vector Graphics logo." /></div>
           </div>
-          <div>
-            <img src="" alt="" />
-            <h4>Sneak preview</h4>
-            <p>
-              Quick preview of all snippets on your Clipboard for easy access.
-            </p>
-          </div>
-          <div><img src="" ref="" /></div>
-          <div><img src="" ref="" /></div>
-          <div><img src="" ref="" /></div>
-          <div><img src="" ref="" /></div>
         </div>
       </section>
 
-      <section>
+      <section class="container-fluid text-center my-3">
         <div>
           <h2>Clipboard for iOS and Mac OS</h2>
           <p>
@@ -139,8 +182,18 @@
           </p>
         </div>
         <div class="m-4">
-          <button type="button" class="btn btn-success btn-lg rounded-pill shadow-lg mx-2">Download for iOS</button>
-          <button type="button" class="btn btn-primary btn-lg rounded-pill shadow-lg">Download for Mac</button>
+          <button
+            type="button"
+            class="btn btn-success btn-lg rounded-pill shadow-lg mx-2"
+          >
+            Download for iOS
+          </button>
+          <button
+            type="button"
+            class="btn btn-primary btn-lg rounded-pill shadow-lg"
+          >
+            Download for Mac
+          </button>
         </div>
       </section>
     </main>
