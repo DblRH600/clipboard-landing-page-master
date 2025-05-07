@@ -164,19 +164,34 @@
             </div>
           </div>
           <div class="row my-5 justify-content-between">
-            <div class="col"><img src="./images/logo-google.png" alt="Google logo." /></div>
-            <div class="col"><img src="./images/logo-ibm.png" alt="IBM logo." /></div>
-            <div class="col"><img src="./images/logo-microsoft.png" alt="Micorsoft logo." /></div>
-            <div class="col"><img src="./images/logo-hp.png" alt="Hewlet Packard logo." /></div>
-            <div class="col"><img src="./images/logo-vector-graphics.png" alt="Vector Graphics logo." /></div>
+            <div class="col">
+              <img src="./images/logo-google.png" alt="Google logo." />
+            </div>
+            <div class="col">
+              <img src="./images/logo-ibm.png" alt="IBM logo." />
+            </div>
+            <div class="col">
+              <img src="./images/logo-microsoft.png" alt="Micorsoft logo." />
+            </div>
+            <div class="col">
+              <img src="./images/logo-hp.png" alt="Hewlet Packard logo." />
+            </div>
+            <div class="col">
+              <img
+                src="./images/logo-vector-graphics.png"
+                alt="Vector Graphics logo."
+              />
+            </div>
           </div>
         </div>
       </section>
 
       <section class="container-fluid text-center my-3">
-        <div>
-          <h2>Clipboard for iOS and Mac OS</h2>
-          <p>
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h2 class="fs-3">Clipboard for iOS and Mac OS</h2>
+          <p class="fw-light p-1" style="width: 38rem">
             Available for free on the App Store. Download for Mac or iOS, sync
             with iCloud and you&#39;re ready to start adding to your clipboard.
           </p>
@@ -198,37 +213,52 @@
       </section>
     </main>
 
-    <footer>
-      <div>
-        <img src="" alt="" />
-        <div>
-          <ul>
-            <li>FAQs</li>
-            <li>Contact Us</li>
-            <li>Privacy Policy</li>
-            <li>Press Kit</li>
-            <li>Install Guide</li>
+    <footer class="container-fluid text-center my-3 bg-light">
+      <div class="d-flex justify-content-around align-items-center">
+        <div class="container-fluid mx-1">
+          <img class="" src="./images/logo.svg" alt="Clipboard logo." />
+        </div>
+        <div class="container-md text-start mx-5 px-5">
+          <ul class="row">
+            <li class="col-md-4">FAQs</li>
+            <li class="col-md-4">Privacy Policy</li>
+            <li class="col-md-4">Install Guide</li>
+            <li class="col">Contact Us</li>
+            <li class="col">Press Kit</li>
+            <li class="col"></li>
           </ul>
         </div>
-        <div>
-          <ul role="navigation" aria-label="Social Media Links">
+        <div class="container-md mx-5">
+          <ul
+            class="d-flex justify-content-between align-items-center mx-5 px-5"
+            role="navigation"
+            aria-label="Social Media Links"
+          >
             <li>
-              <a class="card-social-link" href="#" aria-label="Facebook Link">
+              <a
+                class="card-social-link text-body"
+                href="#"
+                aria-label="Facebook Link"
+              >
                 <ion-icon class="icon" name="logo-facebook"></ion-icon>
               </a>
             </li>
             <li>
               <a
-                class="card-social-link"
+                class="card-social-link text-body"
+                href="#"
+                aria-label="Twitter Link"
+              >
+                <ion-icon class="icon" name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a
+                class="card-social-link text-body"
                 href="#"
                 aria-label="Facebook Instaram"
               >
                 <ion-icon class="icon" name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-            <li>
-              <a class="card-social-link" href="#" aria-label="Twitter Link">
-                <ion-icon class="icon" name="logo-twitter"></ion-icon>
               </a>
             </li>
           </ul>
