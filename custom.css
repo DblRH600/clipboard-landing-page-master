@@ -1,14 +1,28 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
-p, h1, h2, h3, h4 {
-    font-family: "Bai Jamjuree";
+p,
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Bai Jamjuree";
 }
 
 button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 li {
-    list-style: none;
+  list-style: none;
+}
+
+#card-dwnLdBtn {
+  background-color: hsl(171, 66%, 44%);
+  border: none;
 }
